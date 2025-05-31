@@ -129,7 +129,7 @@ export default function ContactPage() {
                   <CardTitle>Connect With Me</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex gap-4">
+                  <div className="flex-col flex gap-4 sm:flex-row">
                     <Button variant="outline" size="lg" asChild>
                       <Link
                         href="https://www.linkedin.com/in/patelljay/"
